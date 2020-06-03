@@ -1,8 +1,11 @@
 body {
   margin-top: 105px; }
 
+.btn-primary {
+  background: #3292a6; }
+
 .navbar {
-  box-shadow: 2px 2px 5px #3292a6;
+  box-shadow: 2px 2px 5px red;
   opacity: 0.9;
   background: #fff; }
   .navbar .nav-item {
@@ -20,3 +23,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; } }
